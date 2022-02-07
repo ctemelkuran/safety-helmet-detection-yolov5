@@ -26,3 +26,15 @@ and mAP values are given in the table below.
 Yolo v5s algorithm clearly more precise than Yolo v5n. As it can be seen from the table even though precision of the 10 epoch training is higher, recall and map values are lower
 than the training with 30 epochs. So, for the detection and prediction of test images, it is more reasonable to use the weights of the second training. The main reason of why the
 mAP 0.5:95 values are so low is the labeling of person class. Even though the values for helmet and head class are above 0.93 for both training’s person class performed poorly.
+
+### Predictions
+
+The rates of safety helmet detection are higher since there were 3 times more labels for people with safety helmets. The detection of helmet and head in the image is specially interesting because the image quality is low and workers are really far away.
+
+
+<p float="center">
+  <img src="https://github.com/ctemelkuran/safety-helmet-detection-yolov5/blob/main/Detection%20Results/Capture1.PNG" width="250" />
+  <img src="https://github.com/ctemelkuran/safety-helmet-detection-yolov5/blob/main/Detection%20Results/Capture2.PNG" width="250" /> 
+  <img src="https://github.com/ctemelkuran/safety-helmet-detection-yolov5/blob/main/Detection%20Results/Capture3.PNG" width="240" />
+   <img src="https://github.com/ctemelkuran/safety-helmet-detection-yolov5/blob/main/Detection%20Results/Capture4.PNG" width="250" />
+</p>
