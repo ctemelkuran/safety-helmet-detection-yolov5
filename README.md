@@ -8,9 +8,9 @@ The Google Drive cloud platform is used to store the data set, annotations and l
 
 A total of 5000 images with bounding box annotations in the PASCAL VOC [6] format were obtained for the scope of this study. Around 17500 helmets and 5500 head label
 instance occurred in the images. Dataset is splitted into 3 categories; training, validation and test. There are 4000 images for training, 500 for validation and 500 for testing the model. The classes are:
-• Helmet
-• Head
-• Person
+* Helmet
+* Head
+* Person
 
 ## Training Results
 
